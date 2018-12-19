@@ -1,16 +1,16 @@
 # README
 
-#Install
+# Install
 It's recommended to use Ruby 2.5.0 and NodeJS 10.14.x.
 
 ```
-## install bundler if not available
+# install bundler if not available
 gem install bundler
 
-## install gem dependencies
+# install gem dependencies
 bundle install
 
-## install npm dependencies
+# install npm dependencies
 npm install
 
 # create the postgres databases
