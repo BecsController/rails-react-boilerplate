@@ -5,7 +5,7 @@ class GreetUser extends React.Component {
   render () {
     return (
       <div>
-        <h1> Hello {this.props.name} </h1>
+        <h1 className="has-text-centered is-size-1 has-text-link"> Hello {this.props.name} </h1>
       </div>
     );
   }
