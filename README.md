@@ -1,7 +1,7 @@
 # README
 
 # Install
-It's recommended to use Ruby 2.5.0 and NodeJS 10.14.x.
+It's recommended to use versions: Rails: 5.1.5 , Ruby: 2.4.1.
 
 ```
 # install bundler if not available
