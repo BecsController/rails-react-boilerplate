@@ -1,24 +1,25 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#Install
+It's recommended to use Ruby 2.5.0 and NodeJS 10.14.x.
 
-Things you may want to cover:
+```
+## install bundler if not available
+gem install bundler
 
-* Ruby version
+## install gem dependencies
+bundle install
 
-* System dependencies
+## install npm dependencies
+npm install
 
-* Configuration
+# create the postgres databases
+# update config/database.yml details if needed
+rake db:create
 
-* Database creation
+# generate assets for development
+npm run webpack
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# start server
+rails s
+```
